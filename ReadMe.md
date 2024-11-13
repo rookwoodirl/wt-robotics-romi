@@ -19,3 +19,13 @@ Check java installed successfully:
 
 3. git clone this repo by running the following command in the terminal:
     git clone https://github.com/rookwoodirl/wt-robotics-romi.git
+
+
+4. WPILib extension should be added to VS Code at this point. We can leverage their prebuild commands
+    Mac: 
+            CMD+SHIFT+P WPILib: Build Robot Code
+            CMD+SHIFT+P WPILib: Simulate Robot Code
+    
+    Windows:
+            CTRL+SHIFT+P WPILib: Build Robot Code
+            CTRL+SHIFT+P WPILib: Simulate Robot Code
