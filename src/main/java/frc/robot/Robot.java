@@ -30,7 +30,6 @@ public class Robot extends TimedRobot {
   @Override
   public void simulationInit() {
     m_robotContainer = new RobotContainer();
-    joystick = new Joystick(0);
     
   }
 
@@ -86,10 +85,7 @@ public class Robot extends TimedRobot {
   /** This function is called periodically during operator control. */
   @Override
   public void simulationPeriodic() {
-    double speed = joystick.getY();
-    double rotation = joystick.getX();
-    drive.arcadeDrive(speed, rotation);
-    System.out.println(speed);
+    
   }
 
   @Override
